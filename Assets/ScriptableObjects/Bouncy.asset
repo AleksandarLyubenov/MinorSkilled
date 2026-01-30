@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410e3f725cd49e547a33c9d2178bf9f7, type: 3}
+  m_Name: Bouncy
+  m_EditorClassIdentifier: 
+  displayName: Bouncy Surface
+  tint: {r: 1, g: 0.47913203, b: 0, a: 1}
+  moveSpeedMul: 1
+  jumpMul: 1.2
+  bounciness: 1
+  sticky: 0
+  accelMul: 1
+  decelMul: 1
+  rbLinearDampingMul: 1
+  rbAngularDampingMul: 1
+  rbRestitutionMul: 1
+  physicsMaterial: {fileID: 13400000, guid: af00c8518bcbbfb4e92b330f2f11b7f5, type: 2}
+  surfaceMaterial: {fileID: 2100000, guid: 43786790a62cfb54b92c0d027195edd9, type: 2}

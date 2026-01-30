@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410e3f725cd49e547a33c9d2178bf9f7, type: 3}
+  m_Name: Slippery
+  m_EditorClassIdentifier: 
+  displayName: Slippery Surface
+  tint: {r: 0, g: 0.5224285, b: 1, a: 1}
+  moveSpeedMul: 1
+  jumpMul: 1
+  bounciness: 0
+  sticky: 0
+  accelMul: 0.3
+  decelMul: 0.2
+  groundFriction: 0.5
+  airFriction: 0.5
+  airControl: 0.2
+  rbLinearDampingMul: 0.1
+  rbAngularDampingMul: 0.1
+  rbRestitutionMul: 0
+  physicsMaterial: {fileID: 13400000, guid: f17a5a8c5588d9d42ab17bc26dbb4771, type: 2}
+  surfaceMaterial: {fileID: 2100000, guid: 8d8cda442a84f134cbb45a1691a1743c, type: 2}

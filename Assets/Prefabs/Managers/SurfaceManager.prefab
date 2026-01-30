@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7594205657279464394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3066340442449728789}
+  - component: {fileID: 2972959316308311438}
+  m_Layer: 0
+  m_Name: SurfaceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3066340442449728789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7594205657279464394}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 754.93286, y: -1015.6286, z: 72.59638}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2972959316308311438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7594205657279464394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b8cd53905b9e814688fbeb79dd58b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 0}
+  bouncySurfacePrefab: {fileID: 196338355604840987, guid: 1a9612e1f31029c42a14c88ce8efa1f0, type: 3}
+  slipperySurfacePrefab: {fileID: 688587747794018775, guid: cce5d1c0bdb66294991d730c824da2ee, type: 3}
+  stickySurfacePrefab: {fileID: 8645878083042312937, guid: a4657b9d615b2164494208186875e258, type: 3}
+  maxPlaceDistance: 100
+  allowedSurfaceLayers:
+    serializedVersion: 2
+    m_Bits: 512
+  placeAnywhere: 1
+  useUpAsNormal: 1
+  surfaceOffset: 0.01
+  placeMouseButton: 0
+  togglePlacementKey: 102
+  hud: {fileID: 0}
+  requireSurfaceMode: 1

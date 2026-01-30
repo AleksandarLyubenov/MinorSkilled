@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 410e3f725cd49e547a33c9d2178bf9f7, type: 3}
+  m_Name: StickyWall
+  m_EditorClassIdentifier: 
+  displayName: Sticky Wall Surface
+  tint: {r: 0.30934623, g: 0.4433962, b: 0, a: 1}
+  moveSpeedMul: 0.6
+  jumpMul: 0.5
+  bounciness: 0
+  sticky: 1
+  accelMul: 0.5
+  decelMul: 2
+  groundFriction: 8
+  airFriction: 0.5
+  airControl: 0.2
+  rbLinearDampingMul: 1.3
+  rbAngularDampingMul: 1.3
+  rbRestitutionMul: 1
+  allowWallRun: 1
+  wallRunMaxFallSpeed: 0.5
+  wallRunMoveSpeedMul: 1.2
+  physicsMaterial: {fileID: 13400000, guid: d63b8effcdb106a41a19cc32a7e13e7f, type: 2}
+  surfaceMaterial: {fileID: 2100000, guid: 68e630fece042a74f85769d41210b5bb, type: 2}
